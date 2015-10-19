@@ -41,7 +41,7 @@ var runGulpWatch = function () {
     });
 
     watch.on('close', function (code) {
-        // Gulp watch exits when error occured during build.
+        // Gulp watch exits when error occurred during build.
         // Just respawn it then.
         runGulpWatch();
     });

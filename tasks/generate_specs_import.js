@@ -11,7 +11,7 @@ var fileBanner = "// This file is generated automatically.\n"
     + "// All your modifications to it will be lost (so don't do it).\n";
 var whatToInclude = [
     '*.spec.js',
-    '!node_modules/**',
+    '!node_modules/**'
 ];
 
 module.exports = function () {
