@@ -8,8 +8,5 @@
   "main": "background.js",
   "config": {
     "target": "development"
-  },
-  "dependencies": {
-    "fs-jetpack": "^0.7.0"
   }
 }
